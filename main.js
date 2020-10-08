@@ -16,7 +16,7 @@ class noPerfecto {
         this.divisores.forEach(element => {
             this.suma += element;
         });
-        return this.suma
+        return this.suma;
     }
     comprobar() {
         if (this.suma == this.numero) {
@@ -28,5 +28,5 @@ class noPerfecto {
 }
 let n = new noPerfecto(6);
 console.log(`Los divisores de ${n.numero} son: ${n.getDivisores()}`);
-console.log(`La suma es: ${n.getSuma()}`)
+console.log(`La suma es: ${n.getSuma()}`);
 console.log(`El número ${n.numero} ${n.comprobar()}`);
